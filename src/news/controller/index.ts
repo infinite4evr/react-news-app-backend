@@ -56,7 +56,6 @@ const prepareQuery = (filterData: Partial<FilterData>): string => {
     url += `&page=${page}`;
   }
 
-  console.log(url);
   return url;
 };
 
